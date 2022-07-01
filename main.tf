@@ -16,11 +16,11 @@ resource "random_id" "user_id" {
 }
 
 resource "random_string" "r_string_1" {
-  length  = 10
+  length  = 20
   special = false
 }
 resource "random_string" "r_string_2" {
-  length  = 10
+  length  = 15
   special = false
 }
 
